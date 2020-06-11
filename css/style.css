@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #33475b;
 }
 
 h1 {
@@ -21,7 +22,6 @@ h1 {
 
 .fullwidth {
     width: 100%;
-    height: 200px;
 }
 
 .container {
@@ -55,6 +55,9 @@ h1 {
 
 .fullwidth-lightblue{
     background-color: #afebe4;
+    height: 70px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .fullwidth-gradient {
@@ -98,6 +101,7 @@ nav li {
     list-style: none;
     text-transform: capitalize;
     font-weight: 300;
+    cursor: pointer;
 }
 
 nav i {
@@ -131,6 +135,12 @@ nav i {
 .btn {
     text-decoration: none;
     border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:focus {
+    outline: 0;
 }
 
 .btn-big {
@@ -140,5 +150,35 @@ nav i {
 .btn-orange {
     background-color: #fe775a;
     color: white;
-    border: 1px solid #fe775a;
+}
+
+.btn-orange:hover {
+    background-color: #ffbcac;
+    transition-duration: 0.5s;
+}
+
+/* SEZIONE GRIGIA */
+
+
+/* PRIMO BLOCCO */
+
+.first-gray-section img {
+    height: 150px;
+}
+
+.first-gray-section {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.first-gray-section h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.first-gray-section p {
+    font-size: 15px;
+    line-height: 23px;
 }
