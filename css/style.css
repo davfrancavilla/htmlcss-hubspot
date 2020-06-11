@@ -182,3 +182,75 @@ nav i {
     font-size: 15px;
     line-height: 23px;
 }
+
+/* SECONDO BLOCCO */
+
+.second-gray-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.second-gray-section img {
+    height: 90px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.interno {
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-box {
+    text-align: center;
+    width: 20%;
+    float: left;
+}
+
+.text-box {
+    width: 80%;
+    float: right;
+    padding-left: 50px;
+}
+
+.top-text h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.top-text p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.bottom-text ul {
+    list-style-type: none;
+}
+
+.bottom-text li {
+    float: left;
+    padding-right: 10px;
+    text-transform: capitalize;
+}
+
+.bottom-text i {
+    color: #fe775a;
+}
+
+.bottom-text h4 {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.bottom-text hr {
+    float:right;
+    width: 79%;
+    transform: translate(40px, 8px);
+}
