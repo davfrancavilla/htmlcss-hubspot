@@ -282,7 +282,7 @@ nav i {
     float: left;
 }
 
-.text-box {
+.interno .text-box {
     width: 80%;
     float: right;
     padding-left: 50px;
@@ -393,4 +393,55 @@ nav i {
 
 .card-bottom-text .btn {
     margin-bottom: 25px;
+}
+
+/* SEZIONE GRADIENTE */
+
+.fullwidth-gradient .text-box {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.fullwidth-gradient .text-box h3 {
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+.fullwidth-gradient .text-box p {
+    font-size: 15px;
+}
+
+/* ELEMENTI GRADIENTE */
+
+.table .element {
+    width: 25%;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.table .content {
+    width: 70%;
+    margin: 0 auto;
+    /* height: 200px; */
+    text-align: center;
+}
+
+.table .content img {
+    height: 30px;
+    margin: 20px 0;
+}
+
+.table .content h3 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.plus {
+    display: inline-block;
+    padding: 5px;
+    font-size: 18px;
+    transform: translateY(-3px;);
 }
