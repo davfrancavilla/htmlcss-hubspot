@@ -198,6 +198,7 @@ nav i {
 
 .btn-orange {
     background-color: #fe775a;
+    border: 1px solid #fe775a;
     color: white;
 }
 
@@ -215,7 +216,9 @@ nav i {
 
 .btn-orange:hover {
     background-color: #ffbcac;
+    border: 1px solid #ffbcac;
     transition-duration: 0.5s;
+
 }
 
 /* SEZIONE GRIGIA */
@@ -324,8 +327,8 @@ nav i {
 }
 
 .three-boxes-container .card-container {
+
     width: 33.3333%;
-    min-width: 0px;
     float: left;
     text-align: center;
     /* DA CANCELLARE */
@@ -333,16 +336,17 @@ nav i {
 
 }
 
+
 .card-container:nth-child(1) {
-    padding-right: 33.3px;
+    padding-right: 33.5px;
 }
 
 .card-container:nth-child(2) {
-    padding: 0 16.65px;
+    padding: 0 16.5px;
 }
 
 .card-container:nth-child(3) {
-    padding-left: 33.3px;
+    padding-left: 33.5px;
 }
 
 /* CONTENUTO CARTA */
