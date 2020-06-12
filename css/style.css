@@ -68,8 +68,7 @@ hr {
 }
 
 .fullwidth-gradient {
-    background-image: linear-gradient(to top right, #00a4bd, #00bda5);
-    height: 500px;
+    background-image: linear-gradient(to right, #00a4bd, #00bda5);
 }
 
 .fullwidth-darkblue {
@@ -401,7 +400,7 @@ nav i {
     text-align: center;
     color: white;
     padding-top: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .fullwidth-gradient .text-box h3 {
@@ -415,11 +414,24 @@ nav i {
 
 /* ELEMENTI GRADIENTE */
 
+.table {
+    margin-bottom: 100px;
+}
+
 .table .element {
     width: 25%;
     border-right: 1px solid white;
     border-bottom: 1px solid white;
     color: white;
+    float: left;
+}
+
+.table .element:nth-child(1n+5) {
+    border-bottom: none;
+}
+
+.table .element:nth-child(4n+4) {
+    border-right: none;
 }
 
 .table .content {
@@ -435,13 +447,21 @@ nav i {
 }
 
 .table .content h3 {
-    font-size: 34px;
-    margin-bottom: 20px;
+    font-size: 42px;
+    position: relative;
+    text-align: center;
 }
 
 .plus {
-    display: inline-block;
-    padding: 5px;
-    font-size: 18px;
-    transform: translateY(-3px;);
+    display: inline;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.table .content p {
+    font-size: 13px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
