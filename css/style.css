@@ -151,6 +151,9 @@ nav i {
     color: #33475b;
 }
 
+p {
+    line-height: 27px;
+}
 /* JUMBOTRON */
 
 .jumbotron {
@@ -246,7 +249,7 @@ nav i {
 
 .first-gray-section p {
     font-size: 15px;
-    line-height: 23px;
+    /* line-height: 23px; */
     margin-bottom: 30px;
 }
 
@@ -453,15 +456,87 @@ nav i {
 }
 
 .plus {
-    display: inline;
+    display: inline-block;
     font-size: 20px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    transform: translate(-50%, -30%);
 }
 
 .table .content p {
     font-size: 13px;
     margin-bottom: 20px;
     margin-top: 10px;
+}
+
+/* SEZIONE BIANCA */
+
+.elements-container {
+    width: 90%;
+    margin: 50px auto;
+}
+
+/* PARTE ALTA */
+
+.elements-container .text-box {
+    width: 20%;
+    float: left;
+
+}
+
+.elements-container .text-box h3 {
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+.logos-table {
+    width: 60%;
+    float: right;
+}
+
+.logos-table .logo{
+    width: 25%;
+    float: left;
+    max-height: 55px;
+    position: relative;
+    height: 200px;
+}
+
+.logos-table .logo img {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* PARTE BASSA */
+
+.bottom-container .left {
+    width: 40%;
+    padding-top: 25px;
+    float: left;
+}
+
+.bottom-container .left h1 {
+    font-size: 34px;
+    text-transform: capitalize;
+}
+
+.bottom-container .left p {
+    margin-bottom: 35px;
+}
+
+.bottom-container .left .btn {
+    margin-bottom: 35px;
+}
+
+.bottom-container .left p:last-child {
+    font-size: 12px;
+}
+
+.bottom-container .right {
+    float: right;
+    text-align: right;
+}
+
+.bottom-container .right img {
+    height: 350px;
 }
